@@ -7,7 +7,7 @@ import WidgetChatAI from "@/components/WidgetChatAI";
 import { toko } from "@/lib/toko";
 
 export const metadata = {
-  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://nuran-coffee.vercel.app"),
+  metadataBase: new URL(process.env.NEXT_PUBLIC_SITE_URL || "https://ekraf-ayasha-ibtm.vercel.app"),
   title: {
     default: `${toko.nama} - Katalog & Pesan Kopi`,
     template: `%s | ${toko.nama}`,
